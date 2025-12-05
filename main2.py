@@ -274,7 +274,7 @@ with tab1:
         year_built = st.slider(
             "Год постройки",
             min_value=1870,
-            max_value=2024,
+            max_value=CURRENT_YEAR,
             value=1980,
             help="Год первоначального строительства"
         )
